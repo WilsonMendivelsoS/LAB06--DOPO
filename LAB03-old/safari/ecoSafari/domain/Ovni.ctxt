@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Ovni
+comment0.text=\r\n\ Represents\ an\ Ovni\ that\ implements\ an\ Entity\r\n\ <b>(habitat,\ hasActed,\ color)</b>\r\n
+comment1.params=habitat\ row\ column
+comment1.target=Ovni(EcoSafari,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Ovni\r\n
+comment2.params=
+comment2.target=EcoSafari\ getHabitat()
+comment3.params=
+comment3.target=java.awt.Color\ getColor()
+comment4.params=
+comment4.target=void\ tic()
+comment5.params=
+comment5.target=void\ tac()
+comment6.params=newRow\ newColumn
+comment6.target=boolean\ move(int,\ int)
+comment7.params=
+comment7.target=int\ shape()
+comment8.params=
+comment8.target=void\ killEntities()
+comment8.text=\r\n\ Kills\ any\ entity\ that\ is\ within\ a\ one\ square\ distance\ of\ him\r\n
+numComments=9

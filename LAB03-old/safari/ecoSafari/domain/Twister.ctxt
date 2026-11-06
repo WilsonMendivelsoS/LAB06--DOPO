@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Twister
+comment0.text=\r\n\ Represents\ a\ Twister\ implements\ Entity<br>\r\n\ <b>(habitat,\ tics,\ color)</b>\r\n
+comment1.params=habitat\ row\ column
+comment1.target=Twister(EcoSafari,\ int,\ int)
+comment1.text=\r\n\ Constructs\ a\ new\ Twister.\r\n\ @param\ habitat\ is\ Twister's\ habitat.\r\n\ @param\ row\ is\ the\ row\ position.\r\n\ @param\ column\ is\ the\ column\ position.\r\n
+comment2.params=
+comment2.target=EcoSafari\ getHabitat()
+comment3.params=
+comment3.target=java.awt.Color\ getColor()
+comment4.params=
+comment4.target=void\ tic()
+comment5.params=
+comment5.target=void\ tac()
+comment6.params=
+comment6.target=int\ shape()
+comment7.params=
+comment7.target=void\ setAffectedZone()
+comment7.text=\r\n\ Changes\ the\ affectedZone\ for\ entities\r\n
+numComments=8

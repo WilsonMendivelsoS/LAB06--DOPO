@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Zebra
+comment0.text=\r\n\ Represents\ a\ Zebra\ that\ is\ an\ organism\ and\ implements\ Entity<br>\r\n\ <b>(habitat,\ hasActed,\ color)</b>\r\n
+comment1.params=habitat\ row\ column
+comment1.target=Zebra(EcoSafari,\ int,\ int)
+comment1.text=\r\n\ Constructs\ a\ new\ Zebra.\r\n\ @param\ habitat\ is\ Zebra's\ habitat.\r\n\ @param\ row\ is\ the\ row\ position.\r\n\ @param\ column\ is\ the\ column\ position.\r\n
+comment2.params=
+comment2.target=EcoSafari\ getHabitat()
+comment3.params=
+comment3.target=java.awt.Color\ getColor()
+comment4.params=
+comment4.target=void\ tic()
+comment5.params=
+comment5.target=int[]\ selectNextMove()
+comment5.text=\r\n\ Selects\ the\ next\ Zebra's\ move,\ if\ it\ can't\ move\ it\ will\ be\ in\ the\ same\ position\r\n\ @return\ the\ x\ and\ y\ position\ of\ the\ selected\ next\ move.\r\n
+comment6.params=
+comment6.target=void\ tac()
+comment6.text=\r\n\ It\ change\ hasActed\ to\ false\ and\ eats\ grass.\r\n
+comment7.params=
+comment7.target=boolean\ eatGrass()
+comment7.text=\r\n\ Zebra\ eats\ one\ grass\ if\ it\ is\ near\ to\ it.\r\n\ @return\ if\ Zebra\ could\ eat\ grass\r\n
+comment8.params=
+comment8.target=boolean\ procreate()
+comment8.text=\r\n\ Zebra\ reproduce\ if\ they\ are\ within\ a\ distance\ of\ two\ blocks\ of\ each\ other\ and\ there\ is\ earth\ between\ them.\r\n\ @return\ if\ animals\ can\ reproduce\ \r\n
+comment9.params=deltaRows\ deltaColumns
+comment9.target=boolean\ move(int,\ int)
+numComments=10

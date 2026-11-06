@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Lyon
+comment0.text=\r\n\ Represents\ a\ Lyon\ that\ is\ an\ organism\ and\ implements\ Entity<br>\r\n\ <b>(habitat,\ hasActed,\ color)</b>\r\n
+comment1.params=habitat\ row\ column
+comment1.target=Lyon(EcoSafari,\ int,\ int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Lyon\r\n
+comment2.params=
+comment2.target=EcoSafari\ getHabitat()
+comment3.params=
+comment3.target=java.awt.Color\ getColor()
+comment4.params=
+comment4.target=void\ tic()
+comment5.params=
+comment5.target=void\ tac()
+comment5.text=\r\n\ It\ change\ hasActed\ to\ false\ and\ eats\ zebra.\r\n
+comment6.params=
+comment6.target=boolean\ eatZebra()
+comment6.text=\r\n\ Lyon\ eats\ one\ zebra\ if\ it\ is\ near\ to\ it.\r\n\ @return\ if\ lyon\ could\ eat\ zebra\r\n
+comment7.params=
+comment7.target=boolean\ procreate()
+comment7.text=\r\n\ Lyon\ reproduce\ if\ they\ are\ within\ a\ distance\ of\ two\ blocks\ of\ each\ other\ and\ there\ is\ earth\ between\ them.\r\n\ @return\ if\ animals\ can\ reproduce\ \r\n
+comment8.params=deltaRows\ deltaColumns
+comment8.target=boolean\ move(int,\ int)
+comment9.params=
+comment9.target=int[]\ selectNextMove()
+comment9.text=\r\n\ Selects\ the\ next\ Lyons\ move,\ if\ it\ can't\ move\ it\ will\ be\ in\ the\ same\ position\r\n\ @return\ the\ x\ and\ y\ position\ of\ the\ selected\ next\ move.\r\n
+numComments=10

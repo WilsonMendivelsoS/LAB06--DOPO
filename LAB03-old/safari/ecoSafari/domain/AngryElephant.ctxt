@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=AngryElephant
+comment0.text=\r\n\ Creates\ a\ new\ AngryElephant\ \r\n
+comment1.params=habitat\ row\ column
+comment1.target=AngryElephant(EcoSafari,\ int,\ int)
+comment1.text=\r\n\ Constructs\ a\ new\ AngryElephant.\r\n\ @param\ habitat\ is\ Angry\ Elephant's\ habitat.\r\n\ @param\ row\ is\ the\ row\ position.\r\n\ @param\ column\ is\ the\ column\ position.\r\n
+comment2.params=
+comment2.target=void\ tic()
+comment2.text=\r\n\ It\ moves\ the\ Angry\ Elephant\ if\ it\ hasn't\ acted\ and\ it\ loses\ energy.\ If\ energy\ is\ 0\ it\ disappears.\r\n
+comment3.params=
+comment3.target=void\ tac()
+comment3.text=\r\n\ calls\ the\ killElephant\ method\ and\ change\ hasActed\ to\ false\r\n
+comment4.params=
+comment4.target=void\ killElephant()
+comment4.text=\r\n\ Angry\ Elephant\ kills\ a\ normal\ Elephant,\ provided\ that\ the\ elephant\ is\ one\ square\ away\ from\ the\ Angry\ Elephant\r\n
+comment5.params=
+comment5.target=java.awt.Color\ getColor()
+comment6.params=deltaRows\ deltaColumns
+comment6.target=boolean\ move(int,\ int)
+numComments=7

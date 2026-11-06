@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=EcoSafariGUI
+comment1.params=
+comment1.target=EcoSafariGUI()
+comment2.params=
+comment2.target=void\ prepareElements()
+comment3.params=
+comment3.target=void\ prepareActions()
+comment4.params=
+comment4.target=void\ ticTacButtonAction()
+comment5.params=
+comment5.target=domain.EcoSafari\ gettheEcoSafari()
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
